@@ -30,7 +30,7 @@ namespace backend_library_app.Controllers
 
         // GET: api/Book/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Book>> GetBook(string id)
+        public async Task<ActionResult<Book>> GetBook(int id)
         {
             var book = await _context.Books.FindAsync(id);
 
@@ -45,7 +45,7 @@ namespace backend_library_app.Controllers
         // PUT: api/Book/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutBook(string id, Book book)
+        public async Task<IActionResult> PutBook(int id, Book book)
         {
             if (id != book.Id)
             {
@@ -79,28 +79,14 @@ namespace backend_library_app.Controllers
         public async Task<ActionResult<Book>> PostBook(Book book)
         {
             _context.Books.Add(book);
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException)
-            {
-                if (BookExists(book.Id))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetBook", new { id = book.Id }, book);
         }
 
         // DELETE: api/Book/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteBook(string id)
+        public async Task<IActionResult> DeleteBook(int id)
         {
             var book = await _context.Books.FindAsync(id);
             if (book == null)
@@ -114,7 +100,7 @@ namespace backend_library_app.Controllers
             return NoContent();
         }
 
-        private bool BookExists(string id)
+        private bool BookExists(int id)
         {
             return _context.Books.Any(e => e.Id == id);
         }
