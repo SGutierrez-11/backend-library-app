@@ -101,7 +101,7 @@ namespace backend_library_app.Controllers
         }
 
         private bool BookExists(int id)
-        {
+        { 
             return _context.Books.Any(e => e.Id == id);
         }
     }
