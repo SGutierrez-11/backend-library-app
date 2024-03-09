@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ada10145-95d2-41eb-85d5-acceedcd47d1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend-library-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+399944a5c6e8eaae4257dfa59d4edd241e17d036")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2496396eb0602ffc0f0fbcf23e6e1fc118842fac")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend-library-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend-library-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

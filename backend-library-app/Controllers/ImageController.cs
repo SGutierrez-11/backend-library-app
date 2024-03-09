@@ -12,7 +12,7 @@ namespace backend_library_app.Controllers
     public class ImageController : ControllerBase
     {
         //172.17.0.2
-        private readonly string _sambaUrl = "smb://samba-server/Shared";
+        private readonly string _sambaUrl = "smb://samba-container:1445/mount";
         private readonly string _username = "admin";
         private readonly string _password = "password1";
 

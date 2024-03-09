@@ -10,16 +10,10 @@ var connectionString = builder.Configuration.GetConnectionString("Connection");
 //Register services to Connection
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
 
-builder.Services.AddCors(options =>
+builder.Services.AddCors(p => p.AddPolicy("corspolicy", build =>
 {
-    options.AddPolicy("AllowSpecificOrigin",
-        builder =>
-        {
-            builder.WithOrigins("http://localhost:5173") // URL de tu frontend sin barra diagonal al final
-                   .AllowAnyHeader()
-                   .AllowAnyMethod();
-        });
-});
+    build.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -35,9 +29,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowSpecificOrigin");
+app.UseCors("corspolicy");
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

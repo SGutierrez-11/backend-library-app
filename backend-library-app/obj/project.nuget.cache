@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "58adkyBP1d6yqDVaBPSoZxBaX7FClPfwbPZoFD2CYZONDNtdFOHcciC8QktpvJ+5XHUxaINB5NvTYY4v3kdBGg==",
+  "dgSpecHash": "opmfuyzAcvMeubWqorj0K/AXXCY2EhcNZyEjnfzWDqysqL0yRnXkOfFY6ZyAJYUThwz34GOO4m71JXXYb4/RnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\example\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
   "expectedPackageFiles": [
@@ -92,6 +92,7 @@
     "C:\\Users\\PC_WIN11\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\PC_WIN11\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\PC_WIN11\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\PC_WIN11\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\PC_WIN11\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\8.0.1\\microsoft.visualstudio.web.codegeneration.8.0.1.nupkg.sha512",
     "C:\\Users\\PC_WIN11\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\8.0.1\\microsoft.visualstudio.web.codegeneration.core.8.0.1.nupkg.sha512",
     "C:\\Users\\PC_WIN11\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\8.0.1\\microsoft.visualstudio.web.codegeneration.design.8.0.1.nupkg.sha512",
