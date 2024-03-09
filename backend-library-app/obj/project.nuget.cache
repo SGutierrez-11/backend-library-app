@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wjFaQA6DJ8EhLWIb9h9Ki3QG0Pu94zavnzRiQq2Nn0QbO+/AYjbRbYAtRoKEZKlFg6zi18FQvbwdf+KwiMKRkA==",
+  "dgSpecHash": "58adkyBP1d6yqDVaBPSoZxBaX7FClPfwbPZoFD2CYZONDNtdFOHcciC8QktpvJ+5XHUxaINB5NvTYY4v3kdBGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\sd-exam\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
+  "projectFilePath": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\example\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC_WIN11\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\PC_WIN11\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
