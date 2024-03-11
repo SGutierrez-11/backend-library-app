@@ -9,6 +9,7 @@ networks:
 
 services:
   backend-library-app:
+    container_name: backend-library-app
     image: ${DOCKER_REGISTRY-}backendlibraryapp
     build:
       context: .
@@ -35,7 +36,7 @@ services:
         - POSTGRES_PASSWORD=postgres
         - POSTGRES_DB=LibraryDB
     ports:
-        - "5433:5432"
+        - "5432:5432"
     networks:
         - exam
     volumes:

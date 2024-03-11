@@ -9933,19 +9933,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC_WIN11\\.nuget\\packages\\": {}
+    "C:\\Users\\JHORMANMERA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\example\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
+      "projectUniqueName": "D:\\Github_Repos\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
       "projectName": "backend-library-app",
-      "projectPath": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\example\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
-      "packagesPath": "C:\\Users\\PC_WIN11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\example\\backend-library-app\\backend-library-app\\obj\\",
+      "projectPath": "D:\\Github_Repos\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
+      "packagesPath": "C:\\Users\\JHORMANMERA\\.nuget\\packages\\",
+      "outputPath": "D:\\Github_Repos\\backend-library-app\\backend-library-app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC_WIN11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JHORMANMERA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
