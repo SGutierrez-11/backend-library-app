@@ -15,6 +15,8 @@ COPY . .
 WORKDIR "/src/backend-library-app"
 RUN dotnet build "./backend-library-app.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
+RUN chmod 777 /app/build
+
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "./backend-library-app.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false

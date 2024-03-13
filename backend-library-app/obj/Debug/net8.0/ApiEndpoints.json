@@ -109,6 +109,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "backend_library_app.Controllers.HealthController",
+    "Method": "CheckHealth",
+    "RelativePath": "api/Health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "backend_library_app.Controllers.ImageController",
     "Method": "UploadImage",
     "RelativePath": "api/Image",
