@@ -1,0 +1,26 @@
+version: '3.4'
+
+networks:
+  exam:
+    driver: bridge
+
+services:
+  backend-library-app:
+    container_name: backend-library-app
+    image: ${DOCKER_REGISTRY-}backendlibraryapp
+    build:
+      context: .
+      dockerfile: backend-library-app/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ConnectionStrings__DefaultConnection=User ID=postgres; Password=postgres;Server=postgresdb;Port=5432;Database=LibraryDB;IntegratedSecurity=true;Pooling=true;
+      - ASPNETCORE_URLS=http://+:8080
+    networks:
+      - exam
+    volumes:
+      - library-storage:/data/gluster/subdir1:rw
+
+volumes:
+  library-storage:

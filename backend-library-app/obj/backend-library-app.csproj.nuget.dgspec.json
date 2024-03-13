@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\sd-exam\\backend-library-app\\backend-library-app\\backend-library-app.csproj": {}
+    "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\testing-dev\\backend-library-app\\backend-library-app\\backend-library-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\sd-exam\\backend-library-app\\backend-library-app\\backend-library-app.csproj": {
+    "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\testing-dev\\backend-library-app\\backend-library-app\\backend-library-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\sd-exam\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
+        "projectUniqueName": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\testing-dev\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
         "projectName": "backend-library-app",
-        "projectPath": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\sd-exam\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
+        "projectPath": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\testing-dev\\backend-library-app\\backend-library-app\\backend-library-app.csproj",
         "packagesPath": "C:\\Users\\PC_WIN11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\sd-exam\\backend-library-app\\backend-library-app\\obj\\",
+        "outputPath": "C:\\Users\\PC_WIN11\\Documents\\2024-1\\SistemasDistribuidos\\testing-dev\\backend-library-app\\backend-library-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC_WIN11\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,47 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
