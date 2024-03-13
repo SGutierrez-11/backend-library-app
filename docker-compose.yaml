@@ -12,11 +12,11 @@ services:
       context: .
       dockerfile: backend-library-app/Dockerfile
     ports:
-      - "8080:8080"
+      - "5087:5087"
       - "8081:8081"
     environment:
       - ConnectionStrings__DefaultConnection=User ID=postgres; Password=postgres;Server=postgresdb;Port=5432;Database=LibraryDB;IntegratedSecurity=true;Pooling=true;
-      - ASPNETCORE_URLS=http://+:8080
+      - ASPNETCORE_URLS=http://+:5087
     networks:
       - exam
     volumes:
