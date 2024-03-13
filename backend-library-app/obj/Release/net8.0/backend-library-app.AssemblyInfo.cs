@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend-library-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f52dc8c1a6c2df321e2a4ebf22b6a262aff17467")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e80d363cd902cdfe48e4447e3757ad66ac6a8beb")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend-library-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend-library-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

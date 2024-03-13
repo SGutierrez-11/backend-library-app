@@ -164,11 +164,10 @@ namespace backend_library_app.Controllers
                 });
 
             // Extraer el nombre de la imagen de la URL
-            Uri uri = new Uri(imageUrl);
-            string imagePath = uri.AbsolutePath;
+       
 
             // Eliminar el archivo utilizando la ruta en el almacenamiento de Firebase
-            await firebaseStorage.Child(imagePath).DeleteAsync();
+            await firebaseStorage.Child("images").Child(imageUrl).DeleteAsync();
         }
 
 
